@@ -1,0 +1,51 @@
+{
+  "name": "@2889036556/nova-ui",
+  "version": "0.1.0",
+  "description": "Production-grade, highly aesthetic AI-native interface components (3D Swarm Topology, RAG Citations, Human-in-the-Loop Intercepts, Real-time Streaming Telemetry)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc --declaration --outDir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "llm",
+    "multi-agent",
+    "streaming",
+    "rag",
+    "citation",
+    "threejs",
+    "human-in-the-loop",
+    "react",
+    "shadcn"
+  ],
+  "author": "杨宇 <2889036556@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2889036556/nova-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/2889036556/nova-ui/issues"
+  },
+  "homepage": "https://github.com/2889036556/nova-ui#readme",
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0",
+    "three": ">=0.160.0"
+  },
+  "devDependencies": {
+    "@types/react": ">=18.0.0",
+    "@types/three": "^0.185.0",
+    "typescript": "^5.0.0"
+  }
+}
